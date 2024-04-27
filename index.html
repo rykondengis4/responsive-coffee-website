@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>RYKONDENGIS COFFEE</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">RYKONDENGIS COFFEE</h2>
+          <p class="sub-heading">black coffee & white coffee</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">idr 10k</h4>
+          <div class="item">black coffee</div>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">idr 20k</h4>
+          <div class="item">white coffee</div>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h2>RYKONDENGIS COFFEE</h2>
+        </div>
+        <div class="menu-list">
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">products</a></li>
+            <li><a href="">gallery</a></li>
+            <li><a href="">about</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="services">
+        <div class="service">
+          <div class="icon">💻</div>
+          <h3>Tutorial</h3>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt nihil unde blanditiis alias excepturi.</p>
+        </div>
+        <div class="service">
+          <div class="icon">📖</div>
+          <h3>Reading</h3>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt nihil unde blanditiis alias excepturi.</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎮</div>
+          <h3>Gaming</h3>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt nihil unde blanditiis alias excepturi.</p>
+        </div>
+        <div class="service">
+          <div class="icon">☕</div>
+          <h3>Coffee</h3>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt nihil unde blanditiis alias excepturi.</p>
+        </div>
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle input');
+      const nav = document.querySelector('nav ul');
+
+      menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('slide');
+      });
+    </script>
+  </body>
+</html>
